@@ -1,8 +1,35 @@
+/*-----Nav Bars-----*/
 
+li {
+  display: inline-block;
+  margin:10px 10px 10px 10px;
+}
+
+ul {
+  background-color: #f3f3f3;
+  font-family: arial, sans-serif;
+  font-size: 13px; 
+  text-align: right;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+li a {
+  color: #666;
+  text-decoration: none; 
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   background-color: #f3f3f3;
+   display: inline;
+}
 /*-----Form-----*/
 
-
-#center {
+#google {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -12,28 +39,46 @@
   margin: -100px 0 0 -150px;
   }  
 
-Submit {
-  background-color: #f7f7f7;
-  border: 1px solid #c6c6c6;
-  box-shadow: 0px 1px 4px #dfdfdf;
-  color: #000000;}
-
-/*-----Nav Bars-----*/
-
-
-li {
-    display: inline;
+#textbox {
+  background-color: #FFFFFF
+  border-left-color: rgb(185, 185, 185);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(185, 185, 185);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgb(185, 185, 185);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: rgb(185, 185, 185);
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow:0 2px 4px rgba(0,0,0,0.2);
+  width: 585px;
+  top: 50%;
+  left: 0% !important;
+  margin: 0px 0 0 0px!important;
 }
 
-ul {
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-}
+#subbox {
+  background-color: rgb(242, 242, 242);
+  border-left-color: rgb(198, 198, 198);
+  border-left-style: solid;
+  border-left-width: 0px;
+  border-right-color: rgb(198, 198, 198);
+  border-right-style: solid;
+  border-right-width: 0px;
+  border-bottom-color: rgb(198, 198, 198);
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-top-color: rgb(198, 198, 198);
+  border-top-style: solid;
+  border-top-width: 0px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(117, 117, 117);}
 
-li a {
-    color: #666;
-}
 
-Bottom nav bar {
-  height: 0px;}
+
 
