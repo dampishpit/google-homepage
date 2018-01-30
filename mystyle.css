@@ -1,4 +1,64 @@
+/*-----General Rules-----*/
+
+* {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+div {
+  display: block;
+}
+
+body {
+  display: block;
+  margin: 8px;
+  line-height: 1;
+}
+
+/*-----Form-----*/
+
+#google {
+        margin-top: 125px;
+	text-align: center;
+        margin-bottom: 33px;}
+
+#search_form {
+	text-align: center;
+}
+
+#search_field {
+	background-color: #fff;
+	height: 30px; width: 484px;
+	border: 1px solid #D4D4D4;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	border-radius: 2px;
+	padding: 5px;
+	font-size: 1em;
+	margin-bottom: 25px;
+	outline: none;
+}
+
+.button {
+	background-color: #F1F1F1;
+	color: #757575;
+	border: none;
+	text-align: center;
+	padding: 11px 15px;
+	margin: 0px 4px;
+	border-radius: 3px;
+        font-weight: bold;
+
 /*-----Nav Bars-----*/
+
+.navbar {
+
+}
+
+.footer
+
+#footer_l {
+
+#footer_r
 
 li {
   display: inline-block;
@@ -12,11 +72,13 @@ ul {
   text-align: right;
   vertical-align: middle;
   white-space: nowrap;
+  border: 1px solid #e7e7e7;
 }
 
 li a {
   color: #666;
   text-decoration: none; 
+  overflow: hidden;
 }
 
 #footer {
@@ -27,58 +89,4 @@ li a {
    background-color: #f3f3f3;
    display: inline;
 }
-/*-----Form-----*/
-
-#google {
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 15;
-  top: 35%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
-  }  
-
-#textbox {
-  background-color: #FFFFFF
-  border-left-color: rgb(185, 185, 185);
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-right-color: rgb(185, 185, 185);
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: rgb(185, 185, 185);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-top-color: rgb(185, 185, 185);
-  border-top-style: solid;
-  border-top-width: 1px;
-  box-shadow:0 2px 4px rgba(0,0,0,0.2);
-  width: 585px;
-  top: 50%;
-  left: 0% !important;
-  margin: 0px 0 0 0px!important;
-}
-
-#subbox {
-  background-color: rgb(242, 242, 242);
-  border-left-color: rgb(198, 198, 198);
-  border-left-style: solid;
-  border-left-width: 0px;
-  border-right-color: rgb(198, 198, 198);
-  border-right-style: solid;
-  border-right-width: 0px;
-  border-bottom-color: rgb(198, 198, 198);
-  border-bottom-style: solid;
-  border-bottom-width: 0px;
-  border-top-color: rgb(198, 198, 198);
-  border-top-style: solid;
-  border-top-width: 0px;
-  font-family: arial,sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  color: rgb(117, 117, 117);}
-
-
-
 
